@@ -1,0 +1,16 @@
+print("KALKULATOR")
+
+prvi_broj = int(input("Unesi prvi broj: "))
+drugi_broj = int(input("Unesi drugi broj: "))
+operation = input("Računska operacija? (+, -, *, /) ")
+
+if operation == "+":
+    print(prvi_broj, "+" ,drugi_broj, "=", int(prvi_broj) + int(drugi_broj))
+elif operation == "-":
+    print(prvi_broj, "-", drugi_broj, "=", int(prvi_broj) - int(drugi_broj))
+elif operation == "*":
+    print(prvi_broj, "*", drugi_broj, "=", int(prvi_broj) * int(drugi_broj))
+elif operation == "/":
+    print(prvi_broj, "/", drugi_broj, "=", int(prvi_broj) / int(drugi_broj))
+else:
+    print("Pogreška pri upisu.")
