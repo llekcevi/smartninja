@@ -1,0 +1,13 @@
+broj = int(input("Upiši jedan broj između 1 i 100."))
+print(broj)
+y=1
+for x in range(int(broj)):
+    if y%3==0 and y%5!=0:
+        print(" fizz ")
+    elif y%5==0 and y%3!=0:
+        print(" buzz ")
+    elif y%3==0 and y%5==0:
+        print(" fizz buzz")
+    else:
+        print(y)
+    y=y+1
