@@ -1,0 +1,5 @@
+with open("podaci.csv", "r") as popis:
+    for x in range(3):
+        row = popis.readline()
+        row_data = row.split(",")
+        print(row_data[0] + " is " + row_data[1] + " and " + row_data[2])
